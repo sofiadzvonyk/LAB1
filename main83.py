@@ -1,0 +1,10 @@
+hours1 = int(input())
+minutes1 = int(input())
+seconds1 = int(input())
+hours2 = int(input())
+minutes2 = int(input())
+seconds2 = int(input())
+result1 = seconds1+60*(minutes1+hours1*60)
+result2 = seconds2+60*(minutes2+hours2*60)
+result =result2-result1
+print(result)
